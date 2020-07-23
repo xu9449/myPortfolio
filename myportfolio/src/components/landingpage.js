@@ -8,7 +8,7 @@ class Landing extends Component {
         <Grid className = "landing-grid">
           <Cell col= {12}>
             <img
-              src = "https://community.nintex.com/legacyfs/online/avatars/a24675_kenny.png"
+              src = "https://raw.githubusercontent.com/xu9449/myPortfolio/master/myportfolio/public/circle-cropped.png"
               alt = "avatar"
               className="avatar-img"
             />
