@@ -12,18 +12,16 @@ class App extends Component{
   return (
         <div className="demo-big-content">
             <Layout>
-                <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Kexin Xu</Link>} scroll>
+                <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white' }} to="/">Kexin Xu</Link>} scroll>
                     <Navigation>
-                        <Link to="/resume">Resume</Link>
-                        <Link to="/aboutme">About Me</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link style={{textDecoration: 'none', color: 'white',fontSize: "18px" }}to="/resume">RESUME</Link>
+                        <Link style={{textDecoration: 'none', color: 'white',fontSize: "18px" }}to="/projects">PROJECTS</Link>
+                        <Link style={{textDecoration: 'none', color: 'white',fontSize: "18px" }}to="/contact">CONTACT</Link>
                     </Navigation>
                 </Header>
-                <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Kexin Xu</Link>} scroll>
+                <Drawer style = {{background: 'white'}}title={<Link style={{textDecoration: 'none', color: '#1d1d1f'}} to="/">Kexin Xu</Link>} scroll>
                     <Navigation>
                       <Link to="/resume">Resume</Link>
-                      <Link to="/aboutme">About Me</Link>
                       <Link to="/projects">Projects</Link>
                       <Link to="/contact">Contact</Link>
                     </Navigation>

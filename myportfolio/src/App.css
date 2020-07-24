@@ -1,14 +1,12 @@
 .header-color {
-  background: #485563;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: 	#555555;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #555555, #555555);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #555555, #555555); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 5%;
 }
 
 .landing-grid {
-  background: #485563;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background:#F9F6EF;
   text-align: center;
   position: fixed;
   top: 0;
@@ -77,16 +75,17 @@
 /* contact page css */
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
+  height: 240px;
+  padding-top: 8em;
 }
 
 .banner-text {
-  background-color: white;
+  background-color: #FFF;
+
   opacity: .8;
   width: 75%;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .banner-text h1 {
@@ -115,7 +114,43 @@
 }
 
 .social-links i {
-  color: black;
+  /* color: black; */
   font-size: 5em;
-  padding: 8px;
+  padding: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin-square {
+  background: white;
+  color: #3B5998;
+}
+
+/* Twitter */
+.fa-github-square {
+  background: white;
+  color: black;
+}
+
+.fa-vimeo-square {
+  background: white;
+  color: #1ab7ea;
+}
+.fa-youtube-square{
+  background: white;
+  color: #ff0000;
 }

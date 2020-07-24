@@ -26,21 +26,21 @@ class Contact extends Component {
                   <ListItem>
                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                       <i className="fa fa-phone-square" aria-hidden="true"/>
-                      (123) 456-7890
+                      (202) 288-4624
                     </ListItemContent>
                   </ListItem>
 
                   <ListItem>
                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                       <i className="fa fa-envelope" aria-hidden="true"/>
-                      someone@example.com
+                      xu9449@gmail.com
                     </ListItemContent>
                   </ListItem>
 
                   <ListItem>
                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                       <i className="fa fa-skype" aria-hidden="true"/>
-                      MySkypeID
+                      2c1631eead44db0e
                     </ListItemContent>
                   </ListItem>
 

@@ -8,7 +8,7 @@ class Landing extends Component {
         <Grid className = "landing-grid">
           <Cell col= {12}>
             <img
-              src = "https://raw.githubusercontent.com/xu9449/myPortfolio/master/myportfolio/public/circle-cropped.png"
+              src = "https://raw.githubusercontent.com/xu9449/myPortfolio/master/myportfolio/public/Avatar.png"
               alt = "avatar"
               className="avatar-img"
             />
@@ -18,26 +18,25 @@ class Landing extends Component {
               <hr/>
               <p>Java | SQL | C# | Spring | JavaScript | React | NodeJS | Unity</p>
 
-
             <div className="social-links">
 
               {/* LinkedIn */}
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                <i className="fa fa-linkedin-square" aria-hidden="true" />
+              <a  href="https://www.linkedin.com/in/xu9449/" rel="noopener noreferrer" target="_blank">
+                <i className="fa fa-linkedin-square" aria-hidden="false" background="#3B5998"/>
               </a>
 
               {/* Github */}
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/xu9449" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-github-square" aria-hidden="true" />
               </a>
 
-              {/* Freecodecamp */}
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+              {/* Vimeo */}
+              <a href="https://vimeo.com/user94263944" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-vimeo-square" aria-hidden="true" />
               </a>
 
               {/* Youtube */}
-              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+              <a href="https://www.youtube.com/channel/UCzgKVLdL08kL9F7BD2IpiBg?view_as=subscriber" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-youtube-square" aria-hidden="true" />
               </a>
 

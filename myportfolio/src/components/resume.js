@@ -38,33 +38,44 @@ class Resume extends Component {
                 startYear= {2017}
                 endYear = {2019}
                 schoolName = "George Washington University"
-                schoolDescription = " "
+                schoolDescription = "Master of Science, Computer Science"
               />
               <Education
                 startYear= {2012}
                 endYear = {2016}
                 schoolName = "Jiangnan University"
-                schoolDescription = " "
+                schoolDescription = "Bachelor of Engineering, Electronic Engineering "
               />
               <hr style = {{borderTop: '3px solid #e22947'}}/>
 
               <h2>Experience</h2>
                 <Experience
-                  startYear = {2018}
-                  endYear = {2018}
+                  startYear = {2018.05}
+                  endYear = {2018.08}
                   jobName = "Software Developer Intern"
-                  jobDescription= ""
+                  jobDescription= "• Developed drivers on Windows in C# to help communicating and controlling devices through GPIB Protocol."
+                  jobDescription2="• Implemented data processing and data visualizations using R for team presentation at Department Meetings."
+
+
+
                 />
                 <Experience
-                  startYear = {2019}
-                  endYear = {2020}
+                  startYear = {2019.01}
+                  endYear = {2020.03}
                   jobName = "Software Developer Consultant"
-                  jobDescription= ""
+                  jobDescription=  "• Delivered world bank’s first virtual reality Application utilizing Unity Engine and react-VR, to facilitate Staff Education and Knowledge Passing."
+                  jobDescription2= "• Designed and implemented new website for OLC group and coordinated multiple teams to finalize the UI design created through HTML, CSS, JavaScript."
+                  jobDescription3= "• Designed applications’ user interface by using Blender, Illustrator and Photoshop."
+                  jobDescription4= "• Remodeled Webinar and Podcast with Windows Form Application in C#, which successfully increased service procedure by 30%."
                 />
                 <h2>Skills</h2>
                 <Skills
                   skill= "Java"
                   progress = {100}
+                />
+                <Skills
+                  skill= "Spring"
+                  progress = {90}
                 />
                 <Skills
                   skill= "SQL"
@@ -75,9 +86,10 @@ class Resume extends Component {
                   progress = {50}
                 />
                 <Skills
-                  skill= "Spring"
-                  progress = {90}
+                  skill= "React"
+                  progress = {40}
                 />
+
             </Cell>
 
           </Grid>
